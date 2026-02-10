@@ -13,19 +13,19 @@ Files (PDF, CSV, DOCX, XLSX, PPTX, TXT, JSON)
 
 Image & S3 URL-based document ingestion
 
-🧠 RAG-based Chatbot
+**🧠 RAG-based Chatbot**
 
 Context-aware responses using retrieved documents
 
 Built using LangChain document loaders & chains
 
-🗄️ Vector Database Integration
+**🗄️ Vector Database Integration**
 
 Stores embeddings for efficient semantic search
 
 Supports incremental document updates
 
-💬 Chat History Management
+**💬 Chat History Management**
 
 Stores chat sessions in MongoDB
 
@@ -33,24 +33,32 @@ Supports admin-based chat history retrieval
 
 Generates chatbot usage statistics
 
-⚡ Concurrent Web Crawling
+**⚡ Concurrent Web Crawling**
 
 Multi-threaded website crawling
 
 Sitemap & internal link discovery
 
+
 **🏗️ Architecture Overview**
+
 User Query
+
    ↓
 Retriever (Vector DB)
+
    ↓
 Relevant Documents
+
    ↓
 LLM (LangChain)
+
    ↓
 Response
+
    ↓
 MongoDB (Chat History)
+
 
 **🔧 Tech Stack**
 
