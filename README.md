@@ -40,24 +40,21 @@ Multi-threaded website crawling
 Sitemap & internal link discovery
 
 
+
 **🏗️ Architecture Overview**
 
 User Query
-
    ↓
 Retriever (Vector DB)
-
    ↓
 Relevant Documents
-
    ↓
 LLM (LangChain)
-
    ↓
 Response
-
    ↓
 MongoDB (Chat History)
+
 
 
 **🔧 Tech Stack**
@@ -75,6 +72,7 @@ BeautifulSoup
 YouTube Data API
 
 ThreadPoolExecutor (Concurrency)
+
 
 
 **📊 Use Cases**
